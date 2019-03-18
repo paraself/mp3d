@@ -1,14 +1,14 @@
 {
-  "name": "mp3-duration",
+  "name": "mp3d",
   "version": "1.1.0",
   "description": "Get the duration of an MP3 file",
-  "main": "index.js",
+  "main": "./index.js",
+  "types": "./index.d.ts",
   "scripts": {
-    "test": "mocha --harmony tests/test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ddsol/mp3-duration"
+    "url": "git://github.com/paraself/mp3d"
   },
   "engines": {
     "node": ">=0.11.0"
@@ -23,9 +23,9 @@
   "author": "Han de Boer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ddsol/mp3-duration/issues"
+    "url": "https://github.com/paraself/mp3d/issues"
   },
-  "homepage": "https://github.com/ddsol/mp3-duration",
+  "homepage": "https://github.com/paraself/mp3d",
   "dependencies": {
     "bluebird": "^3.5.1",
     "bluebird-co": "^2.2.0"

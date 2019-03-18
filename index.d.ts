@@ -1,5 +1,5 @@
 export default function(
   filePathOrBuffer: string,
-  cbrEstimate?: boolean = false,
+  cbrEstimate?: boolean,
   callback?: (err: Error, duration: number) => void
 ): Promise<number>

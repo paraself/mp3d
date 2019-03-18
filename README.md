@@ -1,18 +1,19 @@
-# mp3-duration ![Travis-Build](https://travis-ci.org/ddsol/mp3-duration.svg?branch=master)
+# mp3d
 
 > Calculate duration of an MP3
 
+The original version has a bug that output mp3 duration is seconds instead of milliseconds. In order to prevent any future api change risk. A fork version is created here.
 
 ## Install
 
 ```
-$ npm install --save mp3-duration
+$ npm install --save mp3d
 ```
 
 ## Usage
 
 ```javascript
-var mp3Duration = require('mp3-duration');
+var mp3Duration = require('mp3d');
 
 mp3Duration('file.mp3', function (err, duration) {
   if (err) return console.log(err.message);

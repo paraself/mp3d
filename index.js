@@ -139,7 +139,7 @@ function estimateDuration(bitRate, offset, fileSize) {
 }
 
 function round(duration) {
-  return Math.round(duration * 1000) / 1000; //round to nearest ms
+  return Math.round(duration * 1000); //round to nearest ms
 }
 
 function mp3Duration(filename, cbrEstimate, callback) {

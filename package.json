@@ -1,6 +1,6 @@
 {
   "name": "mp3d",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Get the duration of an MP3 file",
   "main": "./index.js",
   "types": "./index.d.ts",
